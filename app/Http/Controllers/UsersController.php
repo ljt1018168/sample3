@@ -38,14 +38,10 @@ class UsersController extends Controller
         return redirect()->route('users.show', [$user]);
     }
 
-<<<<<<< HEAD
+
      public function edit(User $user)
     {
         return view('users.edit', compact('user'));
     }
-=======
 
- 
-    
->>>>>>> login-logout
 }
