@@ -67,6 +67,17 @@ p {
     color: #fff;
   }
 }
+
+
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+
+
 /* footer */
 
 footer {
@@ -108,6 +119,7 @@ footer {
   }
 }
 
+
 /* Users edit */
 
 .gravatar_edit {
@@ -118,3 +130,4 @@ footer {
     max-width: 100px;
   }
 }
+
